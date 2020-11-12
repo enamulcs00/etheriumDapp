@@ -1,0 +1,315 @@
+
+    <!-- =========================== Header start ========================== -->
+    <header>
+      <div class="container">
+       <nav class="navbar navbar-expand-lg navbar-light">
+         <a class="navbar-brand logo" href="User Wallet Screen.html"><img src="..assets/images/logo.png" alt="" /></a>
+         <span class="open-menu"style="font-size:30px;cursor:pointer" onclick="openMenu()">&#9776; </span>
+       
+         <div class="sidenav" id="mySidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+           <ul class="navbar-nav menu-ul">
+             <li class="nav-item menu-li "  data-toggle="modal" data-target="#deposit-wallet">
+               <a class="nav-link menu-a">Deposit Balance </a>
+             </li>
+             <li class="nav-item menu-li " data-toggle="modal" data-target="#withdrawal-wallet">
+               <a class="nav-link menu-a" >Withdrawal Balance </a>
+             </li>
+             
+             <li class="nav-item menu-li" >
+               <a class="nav-link menu-a " href="User Wallet _Rebalancce Screen.html" >Re-balance  </a>
+             </li>
+             <li class="nav-item menu-li active" >
+               <a class="nav-link menu-a " href="Transaction-History.html">Transaction History  </a>
+             </li>
+           </ul>
+       
+         </div>
+         <ul class="navbar-nav">
+           <li>
+             <div class="notification2">
+                <a href="#">
+                <div class="notBtn" href="#">
+                
+                 <div class="notification2-img">  <img src="..assets/images/user-icon.png" alt="" />
+                  </div>
+                    <div class="notification-box">
+                      
+                     <div class="page-no">
+                       1 of 2
+                     </div>
+                     <div class="user-text">
+                       <img src="..assets/images/user-icon.png" alt=""/><br/> 
+                       <span>http://dotbuymeme.com</span>
+                       <h5>Connect with metaMask</h5>
+                       <span>Select account(S)</span>
+                     </div>
+                    
+                     <div class="select-acount">
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Select All <i class="fa fa-info-circle" aria-hidden="true"></i></label>
+                      </div>
+                      <a href="#"> New Accopunt</a>
+                     </div>
+                     
+                     <div class="select-one">
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="..assets/images/select-1.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="..assets/images/select-2.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="..assets/images/select-3.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="..assets/images/select-1.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="..assets/images/select-2.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="..assets/images/select-3.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+ 
+ 
+                     </div>
+                     <label class="lern-more">only connect with sites you trust. <a> Learn More</a></label>
+                     <div class="btn-div mt-3">
+                       <button class="btn btn-cancel mr-2">Cancel</button>
+                       <button class="btn btn-Next" onclick="openNav()">Next</button>
+                     </div>
+ 
+ 
+                     <div id="connect" class="connect-div">
+                       <div class="back-div"><div class="page-no" onclick="closeNav()"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back</div>  
+                         <div class="page-no">2 of 2 </div> </div>
+                       <div class="user-text">
+                         <img src="..assets/images/user-icon.png" alt=""/><br/> 
+                         <span>http://dotbuymeme.com</span>
+                         <h5>Connect with metaMask</h5>
+                         <span>Select account(S)</span>
+                       </div>
+                       <div class="select-acount">
+                         <div class="form-check select-box " style="border-bottom: none;">
+                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                           <label class="form-check-label">view the addresses of your permitted accounts (required)
+                           
+                           </label>
+                         </div>
+                        </div>
+                       <label class="lern-more mt-5 pt-5">only connect with sites you trust. <a> Learn More</a></label>
+                       <div class="btn-div mt-3">
+                         <button class="btn btn-cancel mr-2">Cancel</button>
+                         <button class="btn btn-Next" onclick="openNav()">Next</button>
+                       </div>
+                   
+                     </div>
+                   </div>
+                </div>
+                  </a>
+              </div>
+          </li>
+         </ul>
+       </nav>
+      </div>
+     </header>
+    <!-- =========================== Header End ============================ -->
+    <!-- =========================== main body start ============================ -->
+    <div class="main-div">
+      <div class="container">
+        <div class="home-div mt-5">
+          <div class="home-box">
+              <div class="row align-items-center">
+                  <div class="col-lg-3  col-md-6 pr-0">
+                      <label>Select Transaction Type  </label>
+                  </div>
+                  <div class="col-lg-3  col-md-6 pr-0">
+                      <select class="form-control"> <option>-Select Status-</option></select>
+                  </div>
+                  <div class="col-lg-3  col-md-6 pr-0">
+                      <div class="date-div">
+                          <input type="text" class="form-control" placeholder="To">
+                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                      </div>
+                  </div>
+                  <div class="col-lg-3  col-md-6">
+                    <div class="date-div">
+                        <input type="text" class="form-control" placeholder="From">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="table-responsive mt-4">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Transaction Hash  </th>
+                        <th>Amount</th>
+                        <th>Transaction Type  </th>
+                        <th>26-Sep-2020, 10:30 AM  </th>
+                        <th>Status  </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>fjfhjfhfjhfjfjfhjfhjfhf   </td>
+                        <td>767564764</td>
+                        <td>Deposit</td>
+                        <td>26-Sep-2020, 10:30 AM  </td>
+                        <td class="pending">Pending</td>
+                      </tr>
+                      <tr>
+                        <td>fjfhjfhfjhfjfjfhjfhjfhf   </td>
+                        <td>767564764</td>
+                        <td>Withdrawal</td>
+                        <td>26-Sep-2020, 10:30 AM  </td>
+                        <td class="success">Success</td>
+                      </tr>
+                      <tr>
+                        <td>fjfhjfhfjhfjfjfhjfhjfhf   </td>
+                        <td>767564764</td>
+                        <td>Deposit</td>
+                        <td>26-Sep-2020, 10:30 AM  </td>
+                        <td class="pending">Pending</td>
+                      </tr>
+                      <tr>
+                        <td>fjfhjfhfjhfjfjfhjfhjfhf   </td>
+                        <td>767564764</td>
+                        <td>Withdrawal</td>
+                        <td>26-Sep-2020, 10:30 AM  </td>
+                        <td class="success">Success</td>
+                      </tr>
+                      <tr>
+                        <td>fjfhjfhfjhfjfjfhjfhjfhf   </td>
+                        <td>767564764</td>
+                        <td>Deposit</td>
+                        <td>26-Sep-2020, 10:30 AM  </td>
+                        <td class="pending">Pending</td>
+                      </tr>
+                      <tr>
+                        <td>fjfhjfhfjhfjfjfhjfhjfhf   </td>
+                        <td>767564764</td>
+                        <td>Withdrawal</td>
+                        <td>26-Sep-2020, 10:30 AM  </td>
+                        <td class="success">Success</td>
+                      </tr>
+                      <tr>
+                        <td>fjfhjfhfjhfjfjfhjfhjfhf   </td>
+                        <td>767564764</td>
+                        <td>Deposit</td>
+                        <td>26-Sep-2020, 10:30 AM  </td>
+                        <td class="pending">Pending</td>
+                      </tr>
+                      <tr>
+                        <td>fjfhjfhfjhfjfjfhjfhjfhf   </td>
+                        <td>767564764</td>
+                        <td>Withdrawal</td>
+                        <td>26-Sep-2020, 10:30 AM  </td>
+                        <td class="success">Success</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+              </div>
+              <nav aria-label="Page navigation example ">
+                <ul class="pagination     justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========================== main body end ============================ -->
+    <!-- =========================== Footer Start ============================ -->
+    <!-- =========================== Footer end ============================ -->
+     <!-- =========================== User Wallet _Deposit Screen Screen modal ============================ -->
+     <div class="modal fade" id="deposit-wallet" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-div p-4 ">
+              <div class="wallet-texts"> 
+                <h2>WBTC Pool Address: </h2>
+                <label>0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7</label>
+            </div>
+            <div class="wallet-texts mt-3  align-items-center"> 
+              <h2>Deposit Amount:  </h2>
+              <label><input type="text" class="form-control" placeholder=""></label>
+          </div>
+          <div class="btn-div mt-5">
+            <button class="btn btn-Next mr-3"data-dismiss="modal" >Submit</button>
+            <button class="btn btn-cancel"data-dismiss="modal" >Cancel</button>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =========================== User Wallet _Deposit Screen Screen modal ============================ -->
+          <!-- ===========================User Wallet _WithdrawalScreen (1) modal ============================ -->
+     <div class="modal fade" id="withdrawal-wallet" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-div p-4 ">
+              <div class="wallet-texts"> 
+                <h2>Total WBTC: </h2>
+                <label>123456777</label>
+            </div>
+            <div class="wallet-texts mt-3"> 
+                <h2>Total intrest earned:  </h2>
+                <label>1234</label>
+            </div>
+            <div class="wallet-texts mt-3  align-items-center"> 
+              <h2>Withdrawal  Amount:  </h2>
+              <label><input type="text" class="form-control" placeholder=""></label>
+          </div>
+          <div class="btn-div mt-5">
+            <button class="btn btn-Next mr-3"data-dismiss="modal" >Submit</button>
+            <button class="btn btn-cancel"data-dismiss="modal" >Cancel</button>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =========================== User Wallet _WithdrawalScreen (1) modal ============================ -->
+    
