@@ -15,7 +15,8 @@ import {
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent},
   {path:'admin-wallet',component: AdminWalletComponent},
   {path:'admin-wallet-screen',component: AdminWalletScreenComponent},
   {path:'user-wallet-screen',component: UserWalletScreenComponent},
