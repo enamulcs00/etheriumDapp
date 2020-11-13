@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin-wallet.component.css']
 })
 export class AdminWalletComponent implements OnInit {
-
+IsAdmin:string
   constructor() { }
 
   ngOnInit(): void {
