@@ -13,6 +13,8 @@ import { UserWalletRebalanceComponent } from './pages/user-wallet-rebalance/user
 import { UserWalletScreenComponent } from './pages/user-wallet-screen/user-wallet-screen.component';
 import { HeaderComponent } from './pages/header/header.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,11 +26,14 @@ import { HeaderComponent } from './pages/header/header.component';
     TransactionHistoryComponent,
     UserWalletRebalanceComponent,
     UserWalletScreenComponent,
-    HeaderComponent
+    HeaderComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
