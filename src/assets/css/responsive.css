@@ -1,0 +1,185 @@
+/* ===========================  1440px view ======================== */
+@media(max-width:1440px){
+
+}
+
+/* ===========================  1366px view ======================== */
+@media(max-width:1366px){
+    .main-div {
+        min-height: 79.5vh;
+    }
+}
+
+/*  1280px view ======================== */
+@media(max-width:1280px){
+    .main-div {
+        min-height: 81.5vh;
+    }
+}
+
+/* ===========================  1024px view ======================== */
+@media(max-width:1024px){
+    .wallet-texts h2 {
+        font-size: 20px;
+    }
+    
+}
+
+/* ===========================  768px view ======================== */
+@media(max-width:768px){
+    ul.home-ul li {
+        width: 45%;
+    }
+    .wallet-texts h2 {
+        font-size: 18px;
+    }
+    .navbar-collapse.collapse.show {
+        position: absolute;
+        background-color: #0f45b1;
+        padding: 15px;
+        top: 63px;
+        right: 85px;
+        border-radius: 10px;
+    }
+    .navbar-collapse.collapse {
+        position: absolute;
+        background-color: #0f45b1;
+        padding: 15px;
+        top: 63px;
+        right: 85px;
+        border-radius: 10px;
+    }
+    button.navbar-toggler {
+        position: fixed;
+        right: 17%;
+        top: 2%;
+        color: #fff;
+    }
+    span.open-menu {
+        display: block;
+    }
+    a.closebtn {
+        display: block;
+    }
+    form.dai-div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right:  0;
+        background: linear-gradient(237.67deg, #1657E2 0%, #00204A 69.38%);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 100px;
+      }
+      ul.navbar-nav.menu-ul {
+        margin-left: 30px;
+    }
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        left: 25px;
+        font-size: 41px;
+        padding-left: 0;
+        color: #fff;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      span.open-menu {
+        font-size: 30px;
+        cursor: pointer;
+        background-color: #fff;
+        height: 40px;
+        width: 50px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        color: #0f45af;
+        position: fixed;
+        right: 55px;
+    }
+    ul.navbar-nav {
+        margin-right: 70px;
+    }
+    div#mySidenav {
+        width: 0;
+    }
+    
+}
+
+/* ===========================  767px view ======================== */
+@media(max-width:767px){
+    span.open-menu {
+        right: 20px;
+    }
+    .home-div {
+        padding: 30px;
+    }
+    .home-box {
+        padding: 20px;
+    }
+    ul.home-ul li {
+        width: 100%;
+    }
+    .notification-box {
+        width: 330px;
+        right: -79px;
+    }
+    button.btn.btn-cancel {
+        border: 1px solid #b2b2b2;
+        min-width: 120px;
+    }
+    button.btn.btn-Next {
+        min-width: 120px;
+    }
+    .wallet-texts {
+        display: block;
+    }
+    .wallet-texts h2 {
+        width: 100%;
+        padding-right: 0;
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .wallet-texts label {
+        width: 100%;
+    }
+    button.navbar-toggler {
+        position: fixed;
+        right: 25%;
+        top: 3%;
+    }
+    .modal-body .wallet-texts h2 {
+        width: 100%
+    }
+    .modal-body .wallet-texts label {
+        width: 100%;
+    }
+
+
+
+}

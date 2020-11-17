@@ -1,0 +1,224 @@
+
+    <!-- =========================== Header start ========================== -->
+    <header>
+      <div class="container">
+       <nav class="navbar navbar-expand-lg navbar-light">
+         <a class="navbar-brand logo" href="admin-wallet.html"><img src="../assets/images/logo.png" alt="" /></a>
+         <span class="open-menu"style="font-size:30px;cursor:pointer" onclick="openMenu()">&#9776; </span>
+       
+         <div class="sidenav" id="mySidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+           <ul class="navbar-nav menu-ul">
+             <li class="nav-item menu-li active">
+               <a class="nav-link menu-a" routerLink="convert-dai" routerLinkActive>Convert  Dai To WBTC</a>
+             </li>
+             <li class="nav-item menu-li ">
+               <a class="nav-link menu-a" routerLinkActive routerLink="rebalance">Re-balance </a>
+             </li>
+             
+             <li class="nav-item menu-li" data-toggle="modal" data-target="#risk-parameter">
+               <a class="nav-link menu-a disabled"  >Risk Parameter </a>
+             </li>
+             <li class="nav-item menu-li" data-toggle="modal" data-target="#pause-withdrawal">
+               <a class="nav-link menu-a disabled" href="Pause-withdrwal.html">Pause withdrwal /deposit </a>
+             </li>
+           </ul>
+       
+         </div>
+         <ul class="navbar-nav">
+           <li>
+             <div class="notification2">
+                <a href="#">
+                <div class="notBtn" href="#">
+                
+                 <div class="notification2-img">  <img src="../assets/images/user-icon.png" alt="" />
+                  </div>
+                    <div class="notification-box">
+                      
+                     <div class="page-no">
+                       1 of 2
+                     </div>
+                     <div class="user-text">
+                       <img src="images/user-icon.png" alt=""/><br/> 
+                       <span>http://dotbuymeme.com</span>
+                       <h5>Connect with metaMask</h5>
+                       <span>Select account(S)</span>
+                     </div>
+                    
+                     <div class="select-acount">
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Select All <i class="fa fa-info-circle" aria-hidden="true"></i></label>
+                      </div>
+                      <a href="#"> New Accopunt</a>
+                     </div>
+                     
+                     <div class="select-one">
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="../assets/images/select-1.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="../assets/images/select-2.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="../assets/images/select-3.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="../assets/images/select-1.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="../assets/images/select-2.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+                       <div class="form-check select-box">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label" for="exampleCheck1"><img src="../assets/images/select-3.png" alt=""/><h6>Account 1 (...1723)
+                         <br/> <span>1.315435 ETH</span>
+                         </h6>
+                         </label>
+                       </div>
+ 
+ 
+                     </div>
+                     <label class="lern-more">only connect with sites you trust. <a> Learn More</a></label>
+                     <div class="btn-div mt-3">
+                       <button class="btn btn-cancel mr-2">Cancel</button>
+                       <button class="btn btn-Next" onclick="openNav()">Next</button>
+                     </div>
+ 
+ 
+                     <div id="connect" class="connect-div">
+                       <div class="back-div"><div class="page-no" onclick="closeNav()"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back</div>  
+                         <div class="page-no">2 of 2 </div> </div>
+                       <div class="user-text">
+                         <img src="../assets/images/user-icon.png" alt=""/><br/> 
+                         <span>http://dotbuymeme.com</span>
+                         <h5>Connect with metaMask</h5>
+                         <span>Select account(S)</span>
+                       </div>
+                       <div class="select-acount">
+                         <div class="form-check select-box " style="border-bottom: none;">
+                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                           <label class="form-check-label">view the addresses of your permitted accounts (required)
+                           
+                           </label>
+                         </div>
+                        </div>
+                       <label class="lern-more mt-5 pt-5">only connect with sites you trust. <a> Learn More</a></label>
+                       <div class="btn-div mt-3">
+                         <button class="btn btn-cancel mr-2">Cancel</button>
+                         <button class="btn btn-Next" onclick="openNav()">Next</button>
+                       </div>
+                   
+                     </div>
+                   </div>
+                </div>
+                  </a>
+              </div>
+          </li>
+         </ul>
+       </nav>
+      </div>
+     </header>
+     
+    <!-- =========================== Header End ============================ -->
+    <!-- =========================== main body start ============================ -->
+    <div class="main-div">
+      <div class="container">
+        <div class="home-div mt-5">
+          <div class="home-box">
+            <div class="wallet-texts"> 
+              <h2>Total Dai Deposited:
+
+            </h2>
+              <label>126363636 </label>
+          </div>
+          <div class="wallet-texts mt-3"> 
+            <h2>Total Dai Intrest Earned:
+
+            </h2>
+            <label>126363636 </label>
+        </div>
+        <div class="wallet-texts mt-3"> 
+          <h2>Exchange Rate (Dai To WBTC):
+
+        </h2>
+          <label>12 </label>
+      </div>
+
+      <form class="dai-div mt-5">
+          <div class="form-group row ">
+            <label  class="col-sm-5 col-form-label">Enter Dai To Convert:  </label>
+            <div class="col-sm-7">
+              <input type="password" class="form-control"  placeholder="Please entere Dai To Convert">
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <button class="btn btn-Next mr-3 mb-3">Convert</button>
+            <button class="btn btn-cancel mr-3 mb-3" >Cancel</button>
+          </div>
+      </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========================== main body end ============================ -->
+    <!-- =========================== Footer Start ============================ -->
+    <!-- =========================== Footer end ============================ -->
+       <!-- =========================== Risk Parameter modal ============================ -->
+       <div class="modal fade" id="risk-parameter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body p-4">
+              <div class="wallet-texts"> 
+                <h2>Low Water collateral   %: </h2>
+                <label>12</label>
+            </div>
+            <div class="wallet-texts mt-3"> 
+              <h2>High Water collateral  %:   </h2>
+              <label>12</label>
+          </div>
+          <div class="btn-div mt-5">
+            <button class="btn btn-Next" data-dismiss="modal">Submit</button>
+            <button class="btn btn-cancel mr-2" data-dismiss="modal">Cancel</button>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =========================== Risk Parameter modal ============================ -->
+        <!-- =========================== Pause withdrwal /deposit modal ============================ -->
+        <div class="modal fade" id="pause-withdrawal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body p-4 text-center">
+                <h6 class="mt-4 mb-5">Are you sure, you want to pause <br/> withdrawal /Deposit?</h6>
+            <div class="btn-div mt-5">
+              <button class="btn btn-Next"data-dismiss="modal" >Yes</button>
+              <button class="btn btn-cancel mr-2" data-dismiss="modal"s>No</button>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===========================Pause withdrwal /deposit  modal ============================ -->
+    
