@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { ShareableService } from '../../shareable.service';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-user-wallet-screen',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserWalletScreenComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service:ShareableService) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
+    this.service.IsUserWallet.next(true);
+    this.service.IshomePage.next(false);
   }
 
 }
