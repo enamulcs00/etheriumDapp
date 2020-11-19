@@ -1,3 +1,4 @@
+import { ShareableService } from '../../shareable.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminWalletScreenComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service:ShareableService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.service.IshomePage.next(true);
   }
 
 }

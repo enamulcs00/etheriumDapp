@@ -17,12 +17,12 @@ import {
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent},
-  {path:'admin-wallet',component: AdminWalletComponent},
+  {path:'admin-wallet-feature',component: AdminWalletComponent},
+  {path:'convert-dai',component: ConvertDaiComponent},
+  {path:'rebalance',component: RebalanceComponent},
   {path:'admin-wallet-screen',component: AdminWalletScreenComponent},
   {path:'user-wallet-screen',component: UserWalletScreenComponent},
   {path:'user-wallet-rebalance',component: UserWalletRebalanceComponent},
-  {path:'rebalance',component: RebalanceComponent},
-  {path:'convert-dai',component: ConvertDaiComponent},
   {path:'transaction-history',component: TransactionHistoryComponent},
 ];
 

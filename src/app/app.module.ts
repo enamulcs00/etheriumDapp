@@ -12,6 +12,7 @@ import { TransactionHistoryComponent } from './pages/transaction-history/transac
 import { UserWalletRebalanceComponent } from './pages/user-wallet-rebalance/user-wallet-rebalance.component';
 import { UserWalletScreenComponent } from './pages/user-wallet-screen/user-wallet-screen.component';
 import { HeaderComponent } from './pages/header/header.component';
+import { ShareableService } from './shareable.service';
 
 
 
@@ -35,7 +36,7 @@ import { HeaderComponent } from './pages/header/header.component';
     
     
   ],
-  providers: [],
+  providers: [ShareableService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
