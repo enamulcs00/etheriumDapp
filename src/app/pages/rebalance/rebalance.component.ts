@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { ShareableService } from '../../shareable.service';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-rebalance',
   templateUrl: './rebalance.component.html',
   styleUrls: ['./rebalance.component.css']
 })
-export class RebalanceComponent implements OnInit {
+export class RebalanceComponent implements OnInit ,OnDestroy{
 
-  constructor() { }
+  constructor(private service:ShareableService) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
+    this.service.Isadminfeature.next(true);
   }
-
+ngOnDestroy(){
+  this.service.Isadminfeature.next(false); 
+}
 }
