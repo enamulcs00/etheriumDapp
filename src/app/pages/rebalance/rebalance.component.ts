@@ -12,6 +12,7 @@ export class RebalanceComponent implements OnInit ,OnDestroy{
 
   ngOnInit(){
     this.service.Isadminfeature.next(true);
+    this.service.IshomePage.next(false);
   }
 ngOnDestroy(){
   this.service.Isadminfeature.next(false); 
