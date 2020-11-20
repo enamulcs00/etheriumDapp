@@ -11,7 +11,8 @@ export class ConvertDaiComponent implements OnInit ,OnDestroy{
   constructor(private service:ShareableService) { }
 
   ngOnInit(){
-    this.service.Isadminfeature.next(true)
+    this.service.Isadminfeature.next(true);
+    this.service.IshomePage.next(false);
   }
 ngOnDestroy(){
   this.service.Isadminfeature.next(false); 
