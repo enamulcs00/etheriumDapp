@@ -6,7 +6,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
   templateUrl: './user-wallet-screen.component.html',
   styleUrls: ['./user-wallet-screen.component.css']
 })
-export class UserWalletScreenComponent implements OnInit {
+export class UserWalletScreenComponent implements OnInit ,OnDestroy{
 
   constructor(private service:ShareableService) { }
 
@@ -14,5 +14,7 @@ export class UserWalletScreenComponent implements OnInit {
     this.service.IsUserWallet.next(true);
     this.service.IshomePage.next(false);
   }
-
+ngOnDestroy(){
+  this.service.IsUserWallet.next(false);
+}
 }
