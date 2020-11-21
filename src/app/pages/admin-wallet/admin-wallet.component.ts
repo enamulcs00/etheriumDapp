@@ -11,7 +11,7 @@ export class AdminWalletComponent implements OnInit ,OnDestroy{
   constructor(private service:ShareableService) { }
 
   ngOnInit(){
-    this.service.IshomePage.next(false);
+    
     this.service.Isadminfeature.next(true);
     }
  ngOnDestroy(){
