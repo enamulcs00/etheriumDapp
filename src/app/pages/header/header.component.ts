@@ -16,6 +16,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(){
     this.service.IshomePage.subscribe(res=>{
       this.IshomePage = res;
+      
     })
     this.service.IsUserWallet.subscribe(res=>{
       this.IsUserWallet = res;
